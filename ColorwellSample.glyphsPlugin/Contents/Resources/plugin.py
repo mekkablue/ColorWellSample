@@ -13,9 +13,9 @@ from __future__ import division, print_function, unicode_literals
 ###########################################################################################################
 
 import objc
-from GlyphsApp import *
-from GlyphsApp.plugins import *
-from AppKit import NSColorWell
+from GlyphsApp import Glyphs, EDIT_MENU
+from GlyphsApp.plugins import GeneralPlugin
+from AppKit import NSColorWell, NSMenuItem
 
 class ColorWellSample(GeneralPlugin):
 		
